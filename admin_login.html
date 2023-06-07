@@ -1,7 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
-<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
+
 
 <html>
 <head>
@@ -106,7 +105,7 @@ footer {
 		<h2>Admin Login</h2>
 		 <colspan="2"><c:if test="${requestScope.Err!=null}">
 		 </c:if>
-		<font color="red">${requestScope.Err}</font>
+		<font color="red">  </font>
 		<form id="registration-form" action="adminlogin.ds" method="post">
 			<div class="form-group">
 				<label for="adminid">AdminID:</label>
